@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [    
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
+  "actionButtons": [
     {
       "buttonName": {
         "eng": "Remap",
-        "ara": "إعادة رسم خريطة",
-        "fra": "remapper",
-        "hin": "सरीमैप",
-        "kan": "ರೀಮ್ಯಾಪ್",
+        "sin": "නැවත සිතියම්ගත කරන්න",
         "tam": "மறுவடிவமைப்பு "
       },
       "actionURL": "",
@@ -19,10 +19,7 @@
     {
       "buttonName": {
         "eng": "Map to Center",
-        "ara":"تعيين إلى المركز",
-        "fra": "Carte vers le centre",
-        "hin": "नक्शा से केंद्र",
-        "kan": "ನಕ್ಷೆಯಿಂದ ಕೇಂದ್ರಕ್ಕೆ",
+        "sin": "මධ්‍යස්ථානයට සම්බන්ධ කරන්න",
         "tam": "வரைபடத்திலிருந்து மையத்திற்கு"
       },
       "actionURL": "",
@@ -34,10 +31,7 @@
     {
       "buttonName": {
         "eng": "Delete",
-        "ara": "حذف",
-        "fra": "Supprimer",
-        "hin": "हटाएं",
-        "kan": "ಅಳಿಸು",
+        "sin": "මකන්න",
         "tam": "அழி "
       },
       "actionURL": "",
@@ -49,10 +43,7 @@
     {
       "buttonName": {
         "eng": "Activate",
-        "ara": "تنشيط",
-        "fra": "déclencher",
-        "hin": "सक्रिय",
-        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "sin": "සක්‍රීය කරන්න",
         "tam": "செயல்படுத்த"
       },
       "actionURL": "",
@@ -64,10 +55,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
-        "ara": "الغاء تنشيط",
-        "fra": "désactiver",
-        "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+        "sin": "අක්‍රීය කරන්න",
         "tam": "செயலிழக்க"
       },
       "actionURL": "",
@@ -79,15 +67,14 @@
     {
       "buttonName": {
         "eng": "Filter",
-        "fra": "filtre",
-        "ara": "تصفيه",
-        "tam": "வடிகட்டி",
-        "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "sin": "පෙරහන",
+        "tam": "வடிகட்டி"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -97,13 +84,10 @@
     {
       "name": "userName",
       "showInListView": "true",
-      "label": { 
-        "eng": "Name", 
-        "ara": "ماسم", 
-        "fra": "Nom",
-        "tam": "பெயர்",
-        "hin": "नाम",
-        "kan": "ಹೆಸರು" 
+      "label": {
+        "eng": "Name",
+        "sin": "නම",
+        "tam": "பெயர்"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -116,10 +100,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Zone Name",
-        "ara": "نوع المركز",
-        "fra": "Type de centre",
-        "hin": "जोन कोड",
-        "kan": "ವಲಯ ಕೋಡ್ ",
+        "sin": "කලාපයේ නම",
         "tam": "மண்டல குறியீடு"
       },
       "sortOrder": "",
@@ -133,10 +114,7 @@
       "showInListView": "",
       "label": {
         "eng": "Center",
-        "ara": "مركز",
-        "fra": "Centre",
-        "hin": "केंद्र",
-        "kan": "ಕೇಂದ್ರ",
+        "sin": "මධ්‍යස්ථානය",
         "tam": "மையம்"
       },
       "sortOrder": "",
@@ -150,10 +128,7 @@
       "showInListView": "",
       "label": {
         "eng": "CreatedBy",
-        "ara": "الشخص المسؤول",
-        "fra": "Personne-ressource",
-        "hin": "के द्वारा बनाई गई ",
-        "kan": "ರಚಿಸಿದವರು",
+        "sin": "සකස් කළ අය",
         "tam": "உருவாக்கப்பட்டது  "
       },
       "sortOrder": "",
@@ -166,10 +141,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "hin": "बनाया गया समय ",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ ",
+        "sin": "සකස් කළ වේලාව",
         "tam": "நேரம் உருவாக்கப்பட்டது "
       },
       "sortOrder": "",
@@ -180,7 +152,11 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -190,12 +166,22 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "userName",
-      "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "Nom", "tam": "பெயர்", "hin": "नाम","kan": "ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Name",
+        "sin": "නම",
+        "tam": "பெயர்"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",
@@ -207,7 +193,11 @@
     },
     {
       "filtername": "zoneName",
-      "filterlabel": { "eng": "Zone Name", "ara": "اسم المنطقة", "fra": "Nom de la zone", "tam": "மண்டல பெயர்", "hin": "क्षेत्र का नाम","kan": "ವಲಯದ ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Zone Name",
+        "sin": "කලාපයේ නම",
+        "tam": "மண்டல பெயர்"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",
@@ -221,10 +211,7 @@
       "filtername": "regCenterName",
       "filterlabel": {
         "eng": "Center",
-        "ara": "مركز",
-        "fra": "Centre",
-        "hin": "केंद्र",
-        "kan": "ಕೇಂದ್ರ",
+        "sin": "මධ්‍යස්ථානය",
         "tam": "மையம்"
       },
       "filterType": "equals",

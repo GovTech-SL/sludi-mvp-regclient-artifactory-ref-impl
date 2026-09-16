@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-039", "ADM-061"],
+  "auditEventIds": [
+    "ADM-039",
+    "ADM-061"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
-        "ara": "تنشيط",
-        "fra": "déclencher",
-        "hin": "सक्रिय",
-        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "sin": "සක්‍රීය කරන්න",
         "tam": "செயல்படுத்த"
       },
       "actionURL": "",
@@ -19,10 +19,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
-        "ara": "الغاء تنشيط",
-        "fra": "désactiver",
-        "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+        "sin": "අක්‍රීය කරන්න",
         "tam": "செயலிழக்க"
       },
       "actionURL": "",
@@ -34,10 +31,7 @@
     {
       "buttonName": {
         "eng": "Decommission",
-        "ara": "وقف التشغيل",
-        "fra": "mettre hors service",
-        "hin": "डीकमिशन",
-        "kan": "ಡಿಕೊಮಿಷನ್",
+        "sin": "ඉවත් කරන්න",
         "tam": "நீக்கம்"
       },
       "actionURL": "",
@@ -49,10 +43,7 @@
     {
       "buttonName": {
         "eng": "Edit",
-        "ara": "تصحيح",
-        "fra": "modifier",
-        "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು",
+        "sin": "සංස්කරණය",
         "tam": "தொகு"
       },
       "actionURL": "",
@@ -64,10 +55,7 @@
     {
       "buttonName": {
         "eng": "Create Machine",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "hin": "मशीन बनाएं",
-        "kan": "ಯಂತ್ರವನ್ನು ರಚಿಸಿ",
+        "sin": "යන්ත්‍රය සකස් කරන්න",
         "tam": "இயந்திரத்தை உருவாக்கவும்"
       },
       "imagePath": "assets/images/add-icon.png",
@@ -78,10 +66,16 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": {
+        "eng": "Filter",
+        "sin": "පෙරහන",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -93,10 +87,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Machine Name",
-        "ara": "اسم الجهاز",
-        "fra": "Nom de la machine",
-        "hin": "मशीन का नाम",
-        "kan": "ಯಂತ್ರದ ಹೆಸರು",
+        "sin": "යන්ත්‍රයේ නම",
         "tam": "இயந்திரத்தின் பெயர்"
       },
       "sortOrder": "3",
@@ -109,10 +100,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Machine Type",
-        "ara": "نوع الجهاز",
-        "fra": "Type de machine",
-        "hin": "मशीन की तरह",
-        "kan": "ಯಂತ್ರ ಪ್ರಕಾರ",
+        "sin": "යන්ත්‍ර වර්ගය",
         "tam": "இயந்திர வகை"
       },
       "sortOrder": "",
@@ -123,7 +111,11 @@
     {
       "name": "macAddress",
       "showInListView": "",
-      "label": { "eng": "Mac Address", "ara": "عنوان", "fra": "Mac Adresse","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "label": {
+        "eng": "Mac Address",
+        "sin": "Mac ලිපිනය",
+        "tam": "Mac முகவரி"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -134,10 +126,7 @@
       "showInListView": "",
       "label": {
         "eng": "Serial Number",
-        "ara": "الرقم التسلسلي",
-        "fra": "numéro",
-        "hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        "sin": "අනුක්‍රමික අංකය",
         "tam": "வரிசை எண்"
       },
       "sortOrder": "",
@@ -150,10 +139,7 @@
       "showInListView": "",
       "label": {
         "eng": "Center",
-        "ara": "مركز",
-        "fra": "Centre",
-        "hin": "केंद्र",
-        "kan": "ಕೇಂದ್ರ",
+        "sin": "මධ්‍යස්ථානය",
         "tam": "மையம்"
       },
       "sortOrder": "",
@@ -166,10 +152,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+        "sin": "සකස් කළ වේලාව",
         "tam": "நேரம் உருவாக்கப்பட்டது"
       },
       "sortOrder": "",
@@ -180,7 +163,11 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -190,17 +177,20 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "name",
       "filterlabel": {
         "eng": "Machine Name",
-        "ara": "اسم الجهاز",
-        "fra": "Nom de la machine",
-        "hin": "मशीन का नाम",
-        "kan": "ಯಂತ್ರದ ಹೆಸರು",
+        "sin": "යන්ත්‍රයේ නම",
         "tam": "இயந்திரத்தின் பெயர்"
       },
       "filterType": "equals",
@@ -215,10 +205,7 @@
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
-        "ara": "حاله",
-        "fra": "statut",
-        "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ",
+        "sin": "තත්ත්වය",
         "tam": "நிலை"
       },
       "filterType": "equals",
@@ -231,7 +218,11 @@
     },
     {
       "filtername": "macAddress",
-      "filterlabel": { "eng": "MAC Address", "ara":"عنوان ماك", "fra": "Adresse Mac","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "filterlabel": {
+        "eng": "MAC Address",
+        "sin": "MAC ලිපිනය",
+        "tam": "Mac முகவரி"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -242,9 +233,11 @@
     },
     {
       "filtername": "serialNum",
-      "filterlabel": {"eng":"Serial Number","ara":"رقم سري", "fra": "Numéro de série","hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        "tam": "வரிசை எண்"},
+      "filterlabel": {
+        "eng": "Serial Number",
+        "sin": "අනුක්‍රමික අංකය",
+        "tam": "வரிசை எண்"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -257,10 +250,7 @@
       "filtername": "machineTypeName",
       "filterlabel": {
         "eng": "Machine Type",
-        "ara": "نوع الجهاز",
-        "fra": "Type de machine",
-        "hin": "मशीन की तरह",
-        "kan": "ಯಂತ್ರ ಪ್ರಕಾರ",
+        "sin": "යන්ත්‍ර වර්ගය",
         "tam": "இயந்திர வகை"
       },
       "filterType": "equals",

@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-040", "ADM-062"],
+  "auditEventIds": [
+    "ADM-040",
+    "ADM-062"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
-        "ara": "تنشيط",
-        "fra": "déclencher",
-        "hin": "सक्रिय ",
-        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ  ",
+        "sin": "සක්‍රීය කරන්න",
         "tam": "செயல்படுத்த "
       },
       "actionURL": "",
@@ -19,10 +19,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
-        "ara": "الغاء تنشيط",
-        "fra": "désactiver",
-        "hin": "निष्क्रिय करें  ",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ   ",
+        "sin": "අක්‍රීය කරන්න",
         "tam": "செயலிழக்க  "
       },
       "actionURL": "",
@@ -34,10 +31,7 @@
     {
       "buttonName": {
         "eng": "Edit",
-        "ara": "تصحيح",
-        "fra": "modifier",
-        "hin": "संपादित करें ",
-        "kan": "ತಿದ್ದು  ",
+        "sin": "සංස්කරණය",
         "tam": "தொகு   "
       },
       "actionURL": "",
@@ -49,10 +43,7 @@
     {
       "buttonName": {
         "eng": "Create",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "hin": "सर्जन करना  ",
-        "kan": "ರಚಿಸಿ  ",
+        "sin": "සාදන්න",
         "tam": "உருவாக்கு    "
       },
       "imagePath": "assets/images/add-icon.png",
@@ -63,10 +54,16 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan":"ಫಿಲ್ಟರ್ ಮಾಡಿ","tam":"வடிகட்டி"  },
+      "buttonName": {
+        "eng": "Filter",
+        "sin": "පෙරහන",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -74,10 +71,7 @@
     {
       "buttonName": {
         "eng": "Template not available in English",
-        "ara": "النموذج غير متوفر باللغة العربية",
-        "fra": "Modèle non disponible en français" ,
-        "hin": "टेम्प्लेट हिंदी में उपलब्ध नहीं है  ",
-        "kan": "ಕನ್ನಡದಲ್ಲಿ ಟೆಂಪ್ಲೇಟು ಲಭ್ಯವಿಲ್ಲ ",
+        "sin": "සැකිල්ල ඉංග්‍රීසියෙන් නොපවතී",
         "tam": "வார்ப்புரு தமிழில் கிடைக்கவில்லை   "
       },
       "imagePath": "",
@@ -86,27 +80,21 @@
         "case": "missingData",
         "title": {
           "eng": "Template not available in English",
-          "ara": "النموذج غير متوفر باللغة العربية",
-          "fra": "Modèle non disponible en français" ,
-          "hin": "टेम्प्लेट हिंदी में उपलब्ध नहीं है  ",
-          "kan": "ಕನ್ನಡದಲ್ಲಿ ಟೆಂಪ್ಲೇಟು ಲಭ್ಯವಿಲ್ಲ ",
+          "sin": "සැකිල්ල ඉංග්‍රීසියෙන් නොපවතී",
           "tam": "வார்ப்புரு தமிழில் கிடைக்கவில்லை   "
         },
-        "columnNames": [{
-          "eng": "Template ID",
-          "ara": "معرف القالب",
-          "fra": "ID de modèle",
-          "hin": "टेम्पलेट आईडी   ",
-          "kan": "ಟೆಂಪ್ಲೇಟು ID ",
-          "tam": "வார்ப்புரு ஐடி   "
-        },{
-          "eng": "Name",
-          "ara": "اسم",
-          "fra": "nom",
-          "hin": "नाम    ",
-          "kan": "ಹೆಸರು  ",
-          "tam": "பெயர்  "
-        }],
+        "columnNames": [
+          {
+            "eng": "Template ID",
+            "sin": "සැකිලි අංකය",
+            "tam": "வார்ப்புரு ஐடி   "
+          },
+          {
+            "eng": "Name",
+            "sin": "නම",
+            "tam": "பெயர்  "
+          }
+        ],
         "fieldName": "name"
       },
       "redirectURL": "",
@@ -121,10 +109,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Name",
-        "ara": "اسم",
-        "fra": "nom",
-        "hin": "नाम    ",
-        "kan": "ಹೆಸರು  ",
+        "sin": "නම",
         "tam": "பெயர்  "
       },
       "sortOrder": "",
@@ -140,10 +125,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
-        "ara": "وصف",
-        "fra": "décrire",
-        "hin": "विवरण    ",
-        "kan": "ವಿವರಣೆ   ",
+        "sin": "විස්තරය",
         "tam": "விளக்கம்  "
       },
       "sortOrder": "",
@@ -159,10 +141,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Model",
-        "ara": "نموذج",
-        "fra": "forme",
-        "hin": "नमूना ",
-        "kan": "ಮಾದರಿ  ",
+        "sin": "ආදර්ශය",
         "tam": "மாதிரி "
       },
       "sortOrder": "",
@@ -177,12 +156,9 @@
       "showInListView": "false",
       "showInSingleView": "true",
       "label": {
-        "eng": "Scenario",
-        "ara": "السيناريو",
-        "fra": "scénario",
-        "hin": "परिदृश्य ",
-        "kan": "ಸನ್ನಿವೇಶ   ",
-        "tam": "காட்சி "
+        "eng": "Content",
+        "sin": "අන්තර්ගතය",
+        "tam": "உள்ளடக்கம் "
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -197,10 +173,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Template Format",
-        "ara": "تنسيق القالب",
-        "fra": "Modèle de format",
-        "hin": "टेम्पलेट प्रारूप ",
-        "kan": "ಟೆಂಪ್ಲೇಟು ಸ್ವರೂಪ    ",
+        "sin": "සැකිලි ආකෘතිය",
         "tam": "வார்ப்புரு வடிவம்"
       },
       "sortOrder": "",
@@ -208,7 +181,41 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "options": [
+        {
+          "code": "txt",
+          "label": {
+            "eng": "Text File",
+            "sin": "පෙළ ගොනුව",
+            "tam": "உரை கோப்பு"
+          }
+        },
+        {
+          "code": "xml",
+          "label": {
+            "eng": "Xml File",
+            "sin": "Xml ගොනුව",
+            "tam": "XML கோப்பு"
+          }
+        },
+        {
+          "code": "json",
+          "label": {
+            "eng": "Json File",
+            "sin": "Json ගොනුව",
+            "tam": "JSON கோப்பு"
+          }
+        },
+        {
+          "code": "html",
+          "label": {
+            "eng": "Html File",
+            "sin": "Html ගොනුව",
+            "tam": "HTML கோப்பு"
+          }
+        }
+      ]
     },
     {
       "name": "templateTypeCode",
@@ -216,10 +223,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Template",
-        "ara": "قالب",
-        "fra": "format",
-        "hin": "टेम्पलेट ",
-        "kan": "ಟೆಂಪ್ಲೇಟು  ",
+        "sin": "සැකිල්ල",
         "tam": "வார்ப்புரு "
       },
       "sortOrder": "",
@@ -235,10 +239,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Module Name",
-        "ara": "اسم الوحدة النمطية",
-        "fra": "Nom du module",
-        "hin": "मोड्यूल का नाम  ",
-        "kan": "ಮಾಡ್ಯೂಲ್ ಹೆಸರು  ",
+        "sin": "මාපාංගයේ නම",
         "tam": "தொகுதி பெயர்"
       },
       "sortOrder": "",
@@ -246,7 +247,57 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "options": [
+        {
+          "id": "10001",
+          "label": {
+            "eng": "Pre-Registration",
+            "sin": "පූර්ව ලියාපදිංචිය",
+            "tam": "முன் பதிவு"
+          }
+        },
+        {
+          "id": "10002",
+          "label": {
+            "eng": "Registration Client",
+            "sin": "ලියාපදිංචි සේවාලාභියා",
+            "tam": "பதிவு வாடிக்கையாளர்"
+          }
+        },
+        {
+          "id": "10003",
+          "label": {
+            "eng": "Registration Processor",
+            "sin": "ලියාපදිංචි සකසනය",
+            "tam": "பதிவு செயலி"
+          }
+        },
+        {
+          "id": "10004",
+          "label": {
+            "eng": "ID Authentication",
+            "sin": "හැඳුනුම්පත් සත්‍යාපනය",
+            "tam": "ஐடி அங்கீகாரம்"
+          }
+        },
+        {
+          "id": "10005",
+          "label": {
+            "eng": "ID Control",
+            "sin": "හැඳුනුම්පත් පාලනය",
+            "tam": "அடையாளக் கட்டுப்பாடு"
+          }
+        },
+        {
+          "id": "10006",
+          "label": {
+            "eng": "Resident Portal",
+            "sin": "පදිංචිකරු ද්වාරය",
+            "tam": "குடியுரிமை போர்ட்டல்"
+          }
+        }
+      ]
     },
     {
       "name": "moduleName",
@@ -254,10 +305,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Module Name",
-        "ara": "اسم الوحدة النمطية",
-        "fra": "Nom du module",
-        "hin": "मोड्यूल का नाम  ",
-        "kan": "ಮಾಡ್ಯೂಲ್ ಹೆಸರು  ",
+        "sin": "මාපාංගයේ නම",
         "tam": "தொகுதி பெயர்"
       },
       "sortOrder": "",
@@ -273,10 +321,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
-        "ara": "تم إنشاؤه من قبل",
-        "fra": "Créé par",
-        "hin": "बनाया गया समय  ",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ  ",
+        "sin": "සාදන ලද්දේ",
         "tam": "நேரம் உருவாக்கப்பட்டது  "
       },
       "sortOrder": "",
@@ -290,10 +335,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
-        "ara": "تم التحديث بواسطة",
-        "fra": "Mise à jour par",
-        "hin": "द्वारा अपडेट   ",
-        "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ   ",
+        "sin": "යාවත්කාලීන කළේ",
         "tam": "புதுப்பிக்கப்பட்டது   "
       },
       "sortOrder": "",
@@ -307,10 +349,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
-        "ara": "وقت التحديث",
-        "fra": "Temps mis à jour",
-        "hin": "दअपडेट किया गया समय  ",
-        "kan": "ನವೀಕರಿಸಿದ ಸಮಯ   ",
+        "sin": "යාවත්කාලීන වේලාව",
         "tam": "புதுப்பிக்கப்பட்ட நேரம்  "
       },
       "sortOrder": "3",
@@ -324,10 +363,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Template ID",
-        "ara": "معرف القالب",
-        "fra": "ID de modèle",
-        "hin": "टेम्पलेट आईडी   ",
-        "kan": "ಟೆಂಪ್ಲೇಟು ID ",
+        "sin": "සැකිලි අංකය",
         "tam": "வார்ப்புரு ஐடி   "
       },
       "sortOrder": "",
@@ -341,10 +377,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "hin": "बनाया गया समय  ",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ   ",
+        "sin": "සකස් කළ වේලාව",
         "tam": "நேரம் உருவாக்கப்பட்டது  "
       },
       "sortOrder": "",
@@ -356,7 +389,11 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","hin": "स्थिति","kan":"ಸ್ಥಿತಿ","tam":"நிலை" },
+      "label": {
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -368,17 +405,20 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "name",
       "filterlabel": {
         "eng": "Name",
-        "ara": "اسم",
-        "fra": "nom",
-        "hin": "नाम    ",
-        "kan": "ಹೆಸರು  ",
+        "sin": "නම",
         "tam": "பெயர்  "
       },
       "filterType": "equals",
@@ -393,10 +433,7 @@
       "filtername": "moduleName",
       "filterlabel": {
         "eng": "Module Name",
-        "ara": "اسم الوحدة النمطية",
-        "fra": "Nom du module",
-        "hin": "मोड्यूल का नाम  ",
-        "kan": "ಮಾಡ್ಯೂಲ್ ಹೆಸರು  ",
+        "sin": "මාපාංගයේ නම",
         "tam": "தொகுதி பெயர் "
       },
       "filterType": "equals",
@@ -410,13 +447,10 @@
     {
       "filtername": "isActive",
       "filterlabel": {
-         "eng": "Status", 
-         "ara": "نشط", 
-         "fra": "Statut",
-         "hin": "स्थिति",
-         "kan": "ಸ್ಥಿತಿ",
-         "tam": "நிலை"
-         },
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

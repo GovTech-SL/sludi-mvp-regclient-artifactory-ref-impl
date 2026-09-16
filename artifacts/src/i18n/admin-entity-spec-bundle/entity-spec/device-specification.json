@@ -1,28 +1,26 @@
 {
-  "auditEventIds": ["ADM-028", "ADM-050"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Activate",
-      "ara": "تنشيط",
-      "fra": "déclencher",
-      "tam": "செயல்படுத்த",
-      "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  "auditEventIds": [
+    "ADM-028",
+    "ADM-050"
+  ],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Activate",
+        "sin": "සක්‍රීය කරන්න",
+        "tam": "செயல்படுத்த"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
     },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "activateCenter"
-  },
     {
       "buttonName": {
         "eng": "Deactivate",
-        "ara": "الغاء تنشيط",
-        "fra": "désactiver",
-        "tam": "செயலிழக்க",
-        "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+        "sin": "අක්‍රීය කරන්න",
+        "tam": "செயலிழக்க"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -33,11 +31,8 @@
     {
       "buttonName": {
         "eng": "Edit",
-        "ara": "تصحيح",
-        "fra": "modifier",
-        "tam": "தொகு",
-        "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+        "sin": "සංස්කරණය",
+        "tam": "தொகு"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/device-specs/single-view/$id",
@@ -48,11 +43,8 @@
     {
       "buttonName": {
         "eng": "Create",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "tam": "உருவாக்கு",
-        "hin": "बनाएं",
-        "kan": "ರಚಿಸಿ"
+        "sin": "සාදන්න",
+        "tam": "உருவாக்கு"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -64,11 +56,8 @@
     {
       "buttonName": {
         "eng": "Filter",
-        "fra": "filtre",
-        "ara": "تصفيه",
-        "tam": "வடிகட்டி",
-        "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "sin": "පෙරහන",
+        "tam": "வடிகட்டி"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -80,36 +69,31 @@
       "validations": ""
     }
   ],
-  "columnsToDisplay": [{
-    "name": "name",
-    "showInListView": "true",
-    "showInSingleView": "true",
-    "label": {
-      "eng": "Name",
-      "ara": "اسم",
-      "fra": "prénom",
-      "tam": "பெயர்",
-      "hin": "नाम",
-      "kan": "ಹೆಸರು"
+  "columnsToDisplay": [
+    {
+      "name": "name",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {
+        "eng": "Name",
+        "sin": "නම",
+        "tam": "பெயர்"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true"
     },
-    "sortOrder": "",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": "",
-    "inputType": "text",
-    "ismandatory": "true"
-  },
     {
       "name": "description",
       "showInListView": "false",
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
-        "ara": "وصف",
-        "fra": "description",
-        "tam": "விளக்கம்",
-        "hin": "विवरण",
-        "kan": "ವಿವರಣೆ"
+        "sin": "විස්තරය",
+        "tam": "விளக்கம்"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -124,11 +108,8 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Brand",
-        "ara": "علامة تجارية",
-        "fra": "Marque",
-        "tam": "பிராண்ட்",
-        "hin": "ब्रांड",
-        "kan": "ಬ್ರಾಂಡ್"
+        "sin": "වෙළඳ නාමය",
+        "tam": "பிராண்ட்"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -143,11 +124,8 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Model",
-        "ara": "نموذج",
-        "fra": "Modèle",
-        "tam": "மாதிரி",
-        "hin": "नमूना",
-        "kan": "ಮಾದರಿ"
+        "sin": "ආදර්ශය",
+        "tam": "மாதிரி"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -162,11 +140,8 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Minimum Driver Version",
-        "ara": "الحد الأدنى لإصدار برنامج التشغيل ",
-        "fra": "Minimum Driver Version",
-        "tam": "குறைந்தபட்ச இயக்கி பதிப்பு",
-        "hin": "न्यूनतम चालक संस्करण",
-        "kan": "ಕನಿಷ್ಠ ಚಾಲಕ ಆವೃತ್ತಿ"
+        "sin": "අවම ධාවක අනුවාදය",
+        "tam": "குறைந்தபட்ச இயக்கி பதிப்பு"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -181,11 +156,8 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Device Type",
-        "ara": "نوع الجهاز",
-        "fra": "Type de Device",
-        "tam": "கருவியின் வகை",
-        "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "sin": "උපාංග වර්ගය",
+        "tam": "கருவியின் வகை"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -200,11 +172,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Machine Spec ID",
-        "ara": "معرف الجهاز المواصفات",
-        "fra": "ID de spécification",
-        "tam": "இயந்திர விவரக்குறிப்பு ஐடி",
-        "hin": "मशीन युक्ति आईडी",
-        "kan": "ಮೆಷಿನ್ ಸ್ಪೆಕ್ ಐಡಿ"
+        "sin": "යන්ත්‍ර විශේෂණ අංකය",
+        "tam": "இயந்திர விவரக்குறிப்பு ஐடி"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -217,11 +186,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
-        "ara": "تم إنشاؤه من قبل",
-        "fra": "Créé par",
-        "tam": "உருவாக்கப்பட்டது",
-        "hin": "के द्वारा बनाई गई",
-        "kan": "ರಚಿಸಿದವರು"
+        "sin": "සාදන ලද්දේ",
+        "tam": "உருவாக்கப்பட்டது"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -234,11 +200,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
-        "ara": "تم التحديث بواسطة",
-        "fra": "Mise à jour par",
-        "tam": "புதுப்பிக்கப்பட்டது",
-        "hin": "द्वारा अपडेट",
-        "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ"
+        "sin": "යාවත්කාලීන කළේ",
+        "tam": "புதுப்பிக்கப்பட்டது"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -251,11 +214,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
-        "ara": "وقت التحديث",
-        "fra": "Temps mis à jour",
-        "tam": "புதுப்பிக்கப்பட்ட நேரம்",
-        "hin": "अद्यतन समय",
-        "kan": "ನವೀಕರಿಸಿದ ಸಮಯ"
+        "sin": "යාවත්කාලීන වේලාව",
+        "tam": "புதுப்பிக்கப்பட்ட நேரம்"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -268,11 +228,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "tam": "Created Time",
-        "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
+        "sin": "සකස් කළ වේලාව",
+        "tam": "Created Time"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -285,11 +242,8 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Status",
-        "ara": "نشط",
-        "fra": "c'est actif",
-        "tam": "நிலை",
-        "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -302,35 +256,36 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
-  "filterColumns": [{
-    "filtername": "name",
-    "filterlabel": {
-      "eng": "Name",
-      "ara": "اسم",
-      "fra": "prénom",
-      "tam": "பெயர்",
-      "hin": "नाम",
-      "kan": "ಹೆಸರು"
+  "filterColumns": [
+    {
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Name",
+        "sin": "නම",
+        "tam": "பெயர்"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "devicespecifications",
+      "fieldName": "name",
+      "methodCallName": ""
     },
-    "filterType": "equals",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "devicespecifications",
-    "fieldName": "name",
-    "methodCallName": ""
-  },
     {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
-        "ara": "نشط",
-        "fra": "Statut",
-        "tam": "நிலை",
-        "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "sin": "තත්ත්වය",
+        "tam": "நிலை"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -344,11 +299,8 @@
       "filtername": "brand",
       "filterlabel": {
         "eng": "Brand",
-        "ara": "علامة تجارية",
-        "fra": "Marque",
-        "tam": "பிராண்ட்",
-        "hin": "ब्रांड",
-        "kan": "ಬ್ರಾಂಡ್"
+        "sin": "වෙළඳ නාමය",
+        "tam": "பிராண்ட்"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -362,12 +314,8 @@
       "filtername": "model",
       "filterlabel": {
         "eng": "Model",
-        "ara": "نموذج",
-        "fra": "Modèle",
-        "tam": "மாதிரி",
-        "hin": "नमूना",
-        "kan": "ಮಾದರಿ"
-
+        "sin": "ආදර්ශය",
+        "tam": "மாதிரி"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -381,12 +329,8 @@
       "filtername": "deviceTypeName",
       "filterlabel": {
         "eng": "Device Type",
-        "ara": "نوع الجهاز",
-        "fra": "Type de Device",
-        "tam": "கருவியின் வகை",
-        "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
-
+        "sin": "උපාංග වර්ගය",
+        "tam": "கருவியின் வகை"
       },
       "filterType": "equals",
       "autocomplete": "false",

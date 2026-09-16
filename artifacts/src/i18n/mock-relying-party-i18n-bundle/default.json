@@ -1,11 +1,19 @@
 {
   "languages": {
-    "en": "English",
-    "hi": "हिंदी",
-    "ar": "عربى",
-    "km": "ខ្មែរ",
-    "kn": "ಕನ್ನಡ",
-    "ta": "தமிழ்"
-  },
-  "rtlLanguages": ["ar"]
+    "eng": {
+      "name": "English",
+      "nativeName": "English",
+      "locale": "en_GB"
+    },
+    "sin": {
+      "name": "Sinhala",
+      "nativeName": "සිංහල",
+      "locale": "si_LK"
+    },
+    "tam": {
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "locale": "ta_LK"
+    }
+  }
 }

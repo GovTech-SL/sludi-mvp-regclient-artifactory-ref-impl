@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Upload Data",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "hin": "डेटा अपलोड करें  ",
-        "kan": "ಡೇಟಾವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ   ",
+        "sin": "දත්ත උඩුගත කරන්න",
         "tam": "தரவைப் பதிவேற்றுக  "
       },
       "imagePath": "assets/images/add-icon.png",
@@ -22,10 +22,11 @@
     {
       "name": "transcationId",
       "showInListView": "true",
-      "label": { "eng": "Transcation ID", "ara": "مركز ", "fra": "Centre" ,
-        "hin": "लेन-देन आईडी  ",
-        "kan": "ವಹಿವಾಟು ID   ",
-        "tam": "பரிவர்த்தனை ஐடி  "},
+      "label": {
+        "eng": "Transcation ID",
+        "sin": "ගනුදෙනු අංකය",
+        "tam": "பரிவர்த்தனை ஐடி  "
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -34,10 +35,11 @@
     {
       "name": "entityName",
       "showInListView": "true",
-      "label": {"eng": "Table Name", "ara": "نوع المركز", "fra": "Type de centre",
-        "hin": "तालिका नाम   ",
-        "kan": "ಟೇಬಲ್ ಹೆಸರು ",
-        "tam": " அட்டவணை பெயர்   "},
+      "label": {
+        "eng": "Table Name",
+        "sin": "වගු නම",
+        "tam": " அட்டவணை பெயர்   "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -46,10 +48,11 @@
     {
       "name": "operation",
       "showInListView": "true",
-      "label": { "eng": "Operation", "ara": "حاله", "fra": "statut" ,
-        "hin": "कार्यवाही    ",
-        "kan": "ಕಾರ್ಯಾಚರಣೆ  ",
-        "tam": " செயல்பாடு  "},
+      "label": {
+        "eng": "Operation",
+        "sin": "මෙහෙයුම",
+        "tam": " செயல்பாடு  "
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -58,9 +61,11 @@
     {
       "name": "count",
       "showInListView": "",
-      "label": {"eng": "Count","ara": "المستخدمين","fra": "Utilisateur","hin": "गिनती   ",
-        "kan": "ಎಣಿಕೆ  ",
-        "tam": "எண்ணிக்கை "},
+      "label": {
+        "eng": "Count",
+        "sin": "ගණන",
+        "tam": "எண்ணிக்கை "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -69,10 +74,11 @@
     {
       "name": "status",
       "showInListView": "",
-      "label": {"eng": "Status", "ara": "الأجهزة", "fra": "Dispositifs",
-        "hin": "स्थिति   ",
-        "kan": "ಸ್ಥಿತಿ   ",
-        "tam": "நிலை "},
+      "label": {
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -81,10 +87,11 @@
     {
       "name": "uploadedBy",
       "showInListView": "",
-      "label": {"eng": "Uploaded By", "ara": "آلات", "fra": "Machines",
-        "hin": "द्वारा डाली गई  ",
-        "kan": "ಇವರಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ   ",
-        "tam": "பதிவேற்றியது  "},
+      "label": {
+        "eng": "Uploaded By",
+        "sin": "උඩුගත කළ අය",
+        "tam": "பதிவேற்றியது  "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -93,10 +100,11 @@
     {
       "name": "timeStamp",
       "showInListView": "",
-      "label": {"eng": "Date Time", "ara": "هاتف مُتَكَون", "fra": "Téléphone Contact",
-        "hin": "समय टिकट    ",
-        "kan": "ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್  ",
-        "tam": " நேர முத்திரை  "},
+      "label": {
+        "eng": "Date Time",
+        "sin": "දිනය හා වේලාව",
+        "tam": " நேர முத்திரை  "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -106,8 +114,13 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
-  "filterColumns": [
-  ]
+  "filterColumns": []
 }

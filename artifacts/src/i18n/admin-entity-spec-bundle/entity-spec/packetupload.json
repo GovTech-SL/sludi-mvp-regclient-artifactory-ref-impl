@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Upload Packet",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "hin": "पैकेट अपलोड करें  ",
-        "kan": "ಪ್ಯಾಕೆಟ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ  ",
+        "sin": "පැකට්ටුව උඩුගත කරන්න",
         "tam": "பாக்கெட்டை பதிவேற்றுக  "
       },
       "imagePath": "assets/images/add-icon.png",
@@ -22,10 +22,11 @@
     {
       "name": "transcationId",
       "showInListView": "true",
-      "label": { "eng": "Transcation ID", "ara": "مركز ", "fra": "Centre" ,
-        "hin": "पैकेट अपलोड करें  ",
-        "kan": "ವಹಿವಾಟು ID  ",
-        "tam": "பரிவர்த்தனை ஐடி"},
+      "label": {
+        "eng": "Transcation ID",
+        "sin": "ගනුදෙනු අංකය",
+        "tam": "பரிவர்த்தனை ஐடி"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -34,10 +35,11 @@
     {
       "name": "status",
       "showInListView": "",
-      "label": {"eng": "Status", "ara": "الأجهزة", "fra": "Dispositifs",
-        "hin": "स्थिति   ",
-        "kan": "ಸ್ಥಿತಿ   ",
-        "tam": "நிலை "},
+      "label": {
+        "eng": "Status",
+        "sin": "තත්ත්වය",
+        "tam": "நிலை "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -46,10 +48,11 @@
     {
       "name": "count",
       "showInListView": "",
-      "label": {"eng": "Count","ara": "المستخدمين","fra": "Utilisateur",
-        "hin": "गिनती   ",
-        "kan": "ಎಣಿಕೆ  ",
-        "tam": "எண்ணிக்கை "},
+      "label": {
+        "eng": "Count",
+        "sin": "ගණන",
+        "tam": "எண்ணிக்கை "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -58,10 +61,11 @@
     {
       "name": "uploadedBy",
       "showInListView": "",
-      "label": {"eng": "Uploaded By", "ara": "آلات", "fra": "Machines",
-        "hin": "द्वारा डाली गई  ",
-        "kan": "ಇವರಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ   ",
-        "tam": "பதிவேற்றியது  "},
+      "label": {
+        "eng": "Uploaded By",
+        "sin": "උඩුගත කළ අය",
+        "tam": "பதிவேற்றியது  "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -70,10 +74,11 @@
     {
       "name": "timeStamp",
       "showInListView": "",
-      "label": {"eng": "Date Time", "ara": "هاتف مُتَكَون", "fra": "Téléphone Contact",
-        "hin": "दिनांक और समय ",
-        "kan": "ದಿನಾಂಕ ಸಮಯ  ",
-        "tam": "தேதி நேரம்  "},
+      "label": {
+        "eng": "Date Time",
+        "sin": "දිනය හා වේලාව",
+        "tam": "தேதி நேரம்  "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -83,8 +88,13 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
-  "filterColumns": [
-  ]
+  "filterColumns": []
 }

@@ -1,13 +1,13 @@
 {
-  "auditEventIds": ["ADM-030", "ADM-052"],
+  "auditEventIds": [
+    "ADM-030",
+    "ADM-052"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Resume Processing",
-        "ara": "ااستئناف المعالجة",
-        "fra": "Reprendre le traitement",
-        "hin": "प्रसंस्करण फिर से शुरू करें",
-        "kan": "ಪುನರಾರಂಭ ಪ್ರಕ್ರಿಯೆ",
+        "sin": "සැකසීම නැවත ආරම්භ කරන්න",
         "tam": "மீண்டும் செயலாக்கம்"
       },
       "actionURL": "",
@@ -19,10 +19,7 @@
     {
       "buttonName": {
         "eng": "Resume from the beginning",
-        "ara": "استئناف من البداية",
-        "fra": "Reprendre depuis le début",
-        "hin": "शुरुआत से फिर से शुरू",
-        "kan": "ಮೊದಲಿನಿಂದಲೂ ಪುನರಾರಂಭಿಸಿ",
+        "sin": "ආරම්භයේ සිට නැවත ආරම්භ කරන්න",
         "tam": "ஆரம்பத்திலிருந்து மீண்டும் தொடரவும்"
       },
       "actionURL": "",
@@ -34,10 +31,7 @@
     {
       "buttonName": {
         "eng": "Reject",
-        "ara": "يرفض",
-        "fra": "Rejeter",
-        "hin": "अस्वीकार",
-        "kan": "ತಿರಸ್ಕರಿಸಿ",
+        "sin": "ප්‍රතික්ෂේප කරන්න",
         "tam": "நிராகரிக்கவும்"
       },
       "actionURL": "",
@@ -47,10 +41,16 @@
       "callBackFunction": "stopprocessing"
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" , "hin": "पफ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
+      "buttonName": {
+        "eng": "Filter",
+        "sin": "පෙරහන",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -60,7 +60,11 @@
     {
       "name": "workflowId",
       "showInListView": "True",
-      "label": { "eng": "RID", "ara": "ايتخلص", "fra": "DÉBARRASSER" ,"hin": "पंजीयन पहचान  ","kan": "ಆರ್ಐಡಿ","tam": "தவிர்ந்திடு"},
+      "label": {
+        "eng": "RID",
+        "sin": "RID",
+        "tam": "தவிர்ந்திடு"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -69,7 +73,11 @@
     {
       "name": "workflowType",
       "showInListView": "True",
-      "label": { "eng": "Type of packet", "ara": "نوع الحزمة", "fra": "Type de paquet" , "hin": "पैकेट का प्रकार", "kan": "ಪ್ಯಾಕೆಟ್ ಪ್ರಕಾರ", "tam": "பாக்கெட் வகை"},
+      "label": {
+        "eng": "Type of packet",
+        "sin": "පැකට් වර්ගය",
+        "tam": "பாக்கெட் வகை"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -78,7 +86,11 @@
     {
       "name": "statusComment",
       "showInListView": "True",
-      "label": { "eng": "Rule Description", "ara": "وصف القاعدة", "fra": "Description de la règle" , "hin": "नियम विवरण", "kan": "ನಿಯಮದ ವಿವರಣೆ", "tam": "விதி விளக்கம்"},
+      "label": {
+        "eng": "Rule Description",
+        "sin": "නීති විස්තරය",
+        "tam": "விதி விளக்கம்"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -87,7 +99,11 @@
     {
       "name": "currentStageName",
       "showInListView": "True",
-      "label": { "eng": "Current Stage", "ara": "المرحلة الحالية", "fra": "Étape actuelle","hin": "वर्तमान स्थिति ","kan": "ಪ್ರಸ್ತುತ ಹಂತ     ","tam": "தற்போதைய நிலை " },
+      "label": {
+        "eng": "Current Stage",
+        "sin": "වත්මන් අදියර",
+        "tam": "தற்போதைய நிலை "
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -97,15 +113,22 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "workflowId",
-      "filterlabel": { "eng": "RID", "ara": "يتخلص,","fra": "DÉBARRASSER",
-      "hin": "पंजीयन पहचान  ",
-      "kan": "ಆರ್ಐಡಿ     ",
-      "tam": "தவிர்ந்திடு  "},
+      "filterlabel": {
+        "eng": "RID",
+        "sin": "RID",
+        "tam": "தவிர்ந்திடு  "
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "false",
@@ -117,7 +140,11 @@
     },
     {
       "filtername": "workflowType",
-      "filterlabel": { "eng": "Type of packet", "ara": "نوع الحزمة", "fra": "Type de paquet" , "hin": "पैकेट का प्रकार", "kan": "ಪ್ಯಾಕೆಟ್ ಪ್ರಕಾರ", "tam": "பாக்கெட் வகை"},
+      "filterlabel": {
+        "eng": "Type of packet",
+        "sin": "පැකට් වර්ගය",
+        "tam": "பாக்கெட் வகை"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "false",
