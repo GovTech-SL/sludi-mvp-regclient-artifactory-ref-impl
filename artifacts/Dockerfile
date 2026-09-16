@@ -27,8 +27,8 @@ apt-get update -y && \
 apt-get install -y --no-install-recommends unzip wget zip && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
-wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz &&\
-tar -xzf apache-maven-3.8.8-bin.tar.gz && mv apache-maven-3.8.8 /usr/local/maven && rm apache-maven-3.8.8-bin.tar.gz &&\
+wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz &&\
+tar -xzf apache-maven-3.9.16-bin.tar.gz && mv apache-maven-3.9.16 /usr/local/maven && rm apache-maven-3.9.16-bin.tar.gz &&\
 case "${TARGETARCH}" in \
   amd64) jdk_arch=x64; jdk_sha256=${TEMURIN_JDK_SHA256_AMD64} ;; \
   arm64) jdk_arch=aarch64; jdk_sha256=${TEMURIN_JDK_SHA256_ARM64} ;; \
